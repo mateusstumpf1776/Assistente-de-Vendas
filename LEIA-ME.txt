@@ -1,0 +1,27 @@
+ESSÊNCIA CONTROLE — ANDROID 1.0
+
+Instalação:
+1. Baixe Essencia-Controle.apk no celular Android (Android 8 ou superior).
+2. Abra o arquivo e permita a instalação por esse aplicativo, se o Android solicitar.
+3. Toque em Instalar. Depois abra Essência Controle pelo ícone.
+
+O programa abre sem a interface do navegador e funciona offline.
+Compras e vendas ficam salvas no armazenamento privado do aplicativo.
+Os dados que já estavam no navegador não são importados automaticamente.
+
+No menu de três pontos da barra superior:
+- Salvar backup: exporta todas as compras e vendas para um arquivo JSON.
+- Restaurar backup: substitui os dados atuais por um backup deste aplicativo.
+Faça backup antes de desinstalar ou limpar os dados do aplicativo.
+
+Validação: código Java compilado, JavaScript verificado e assinatura APK validada.
+Esta versão ainda não foi executada em celular ou emulador.
+
+O projeto inclui o HTML original completo, o código Android e a chave de
+assinatura. Guarde este pacote em local privado: a pasta signing contém a
+chave e sua senha, necessárias para futuras atualizações sem desinstalar.
+Para uma atualização, mantenha o package e a chave e aumente versionCode.
+
+Recompilação em Linux com JDK 17 e Android SDK:
+Configure ANDROID_SDK_ROOT e execute bash build.sh.
+Instale previamente platforms;android-35 e build-tools;35.0.0 no SDK.
